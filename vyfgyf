@@ -1,0 +1,23 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+        
+                public void Right(BombAction bombAction = BombAction.None)
+		{
+            send(
+				$"{(b
+            public void Right(BombAction bombAction = BombAction.None)
+		{
+            send(
+				$"{(b
+		}
+		}
+    }
+    }
+    }
