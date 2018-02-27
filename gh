@@ -1,0 +1,17 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+        
+public void Act()
+		{
+            send("ACT");
+		}
+    }
+    }
+    }
