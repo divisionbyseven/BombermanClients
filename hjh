@@ -1,0 +1,18 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+			public void Up(BombAction bombAction = BombAction.None)
+		{
+			send(
+				$"{(bombAction == BombAction.BeforeTurn ? "ACT," : "")}UP{(bombAction == BombAction.AfterTurn ? ",ACT" : "")}"
+				);
+		}
+    }
+    }
+    }
