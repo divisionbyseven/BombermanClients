@@ -1,0 +1,18 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+			var r = new Random();
+			var gcb = new GameClientBomberman("localhost:8080", "e@mail.org", "00000000000000000000");
+			gcb.Run(() =>
+			{
+gcb.Up(BombAction.BeforeTurn);
+    }
+    }
+    }
+    }
