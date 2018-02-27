@@ -1,0 +1,17 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+		public void Run(Action handler)
+		{
+			OnUpdate += handler;
+			_socket.Open();
+		}
+    }
+    }
+    }
