@@ -1,0 +1,30 @@
+using System;
+using CodeBattleNetLibrary;
+
+namespace CodeBattleNet
+{
+	internal static class Program
+	{
+		private static void Main()
+		{
+   		public void Run(Action handler)
+		{
+			OnUpdate += handler;
+			_socket.Open();
+		}
+        
+ public void Right(BombAction bombAction = BombAction.None)
+		{
+            send(
+				$"{(bombAction == BombAction.BeforeTurn ? "ACT," : "")}RIGHT{(bombAction == BombAction.AfterTurn ? ",ACT" : "")}"
+				);
+		}
+    public void Right(BombAction bombAction = BombAction.None)
+		{
+            send(
+				$"{(bombAction == BombAction.BeforeTurn ? "ACT," : "")}RIGHT{(bombAction == BombAction.AfterTurn ? ",ACT" : "")}"
+				);
+		}
+    }
+    }
+    }
